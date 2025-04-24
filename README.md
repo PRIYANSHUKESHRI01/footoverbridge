@@ -42,7 +42,7 @@ cd footoverbridge
 cd backend
 npm install
 #### Server configuration
-PORT=5000
+PORT=5173
 
 #### MongoDB connection
 MONGO_URI=mongodb+srv://<PRIYANSHUKESHRI01>:<password>@cluster0.mongodb.net/bridgeDB?retryWrites=true&w=majority
