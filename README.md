@@ -45,7 +45,7 @@ npm install
 PORT=5001
 
 #### MongoDB connection
-MONGO_URI=mongodb://localhost:27017/fob-management
+MONGO_URI= mongodb://localhost:27017/fob-management
 
 #### JWT Secret
 JWT_SECRET=yourSecretKey
