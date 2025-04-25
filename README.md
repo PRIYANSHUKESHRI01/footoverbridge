@@ -42,13 +42,14 @@ cd footoverbridge
 cd backend
 npm install
 #### Server configuration
-PORT=5173
+PORT=5001
 
 #### MongoDB connection
-MONGO_URI=mongodb+srv://<PRIYANSHUKESHRI01>:<password>@cluster0.mongodb.net/bridgeDB?retryWrites=true&w=majority
+MONGO_URI=mongodb://localhost:27017/fob-management
 
 #### JWT Secret
-JWT_SECRET='''
+JWT_SECRET=yourSecretKey
+JWT_EXPIRE=30d
 npm start
 
 ## 3. Setup Frontend
